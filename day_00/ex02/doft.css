@@ -1,0 +1,227 @@
+html {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body {
+	background-color: #505050;
+	}
+img {}
+
+.top_img {
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.panel {
+	/*
+	margin-left: auto;
+	margin-right: auto;
+	*/
+	background-color: #909090;
+	box-shadow: 20px 20px 20px #202020;
+	border-radius: 20px;
+	width: 1424px;
+}
+
+table, tr {
+	width: 1424px;
+}
+
+
+.center_block {
+	display: inline-block;
+	width: 1424px;
+}
+
+.left_panel {
+	padding: 20px 20px 20px 20px;
+	margin: 20px 20px 20px 20px;
+
+	margin-left: 0px;
+	margin-right: auto;
+	width: 120px;
+	background-color: #909090;
+	box-shadow: 20px 20px 20px #202020;
+	border-radius: 20px;
+	float: left;
+    display: inline-block;
+}
+
+
+.center_panel {
+	
+	padding: 20px 20px 20px 20px;
+	margin: 20px 20px 20px 20px;
+	width: 1024px;
+	background-color: #909090;
+	box-shadow: 20px 20px 20px #202020;
+	border-radius: 20px;
+    display: inline-block;
+	float: left;
+}
+
+.right_panel {
+	padding: 20px 20px 20px 20px;
+	margin: 20px 20px 20px 20px;
+	margin-left: auto;
+	margin-right: 0px;
+	width: 120px;
+	background-color: #909090;
+	box-shadow: 20px 20px 20px #202020;
+	border-radius: 20px;
+    display: inline-block;
+	float: left;
+}
+
+
+.row {
+	width: 1424px;
+	display: flex;
+	background-color: #909090;
+	box-shadow: 20px 20px 20px #202020;
+	border-radius: 20px;
+	width: 1424px;
+	position: relative;
+
+}
+
+.column1 {
+	flex: 80%;
+	float: left;
+	position: relative;
+}
+
+.column2 {
+	flex: 15%;
+	float: left;
+	position: relative;
+}
+
+.column3 {
+	flex: 5%;
+	float: left;
+	position: relative;
+}
+
+
+.icon_loupe {
+	bottom: -30px;
+	position: absolute;
+	right: 0px;
+}
+
+.icon_reload {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 12px;
+	left: 24px;
+}
+
+.icon_close {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	bottom: 12px;
+	left: 24px;
+}
+
+
+
+.small_icon {
+
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 32px;
+	height: 32px;
+}
+
+.icon {
+
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 64px;
+	height: 64px;
+}
+
+.icon2 {
+
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 100%;
+	height: auto;
+	
+}
+
+
+.bottom_block {
+	position: absolute;
+}
+
+.green_panel {
+	box-shadow: 20px 20px 20px #202020;
+	border-radius: 20px;
+	background-color: #88ff89;
+	width: 520px;
+	height: 170px;
+	margin-left: 100px;
+	margin-top: -100px;
+}
+
+.repondere {
+	margin-left: 20px;
+}
+
+.inputbox {
+	margin: auto;
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 300px;
+}
+
+.msg1 {
+	margin-left: 20px;
+	font-size: 18px;
+	font-family: times;
+}
+
+.msg2 {
+	margin-left: 20px;
+	font-size: 18px;
+	font-style: italic;
+}
+
+b {
+	font-size: 28px;
+	font-family: times;
+}
+
+.bricks {
+    background-image: url("resources/brick.jpg");
+    background-repeat: repeat;
+
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 96px;
+	height: 64px;
+	
+}
+
+
+.container {
+	width: 1424px;
+	margin-left: auto;
+	margin-right: auto;
+}

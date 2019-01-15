@@ -1,0 +1,13 @@
+preg_match
+
+^zxc				<-- string must begin with `zxc'
+zxc$				<-- string must end with `zxc'
+alexand[er][ra]		<-- match strings `alexander`, `alexandea', `alexandrr' and `alexandra'
+t[io][io]			<-- match `titi', `tito', `toti', `toto'
+t[0-9]zxc			<--	character between `t' and `z' must be between 0 .. 9
+alex[0-9]*banana	<-- match any string that has any number of digits (0 .. 9) between `alex' and `banana'
+alex[0-9]{4}banana	<-- match strings that have 4 digits between `alex' and `banana'
+^[0-9]				<-- match all strings that start with a digit
+[^0-9]				<-- match all strings that don't start with a digit
+
+

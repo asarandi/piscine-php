@@ -1,0 +1,44 @@
+<!--
+Create a web page that contain the following elements:
+• A pink background (“Pink ? what’s wrong with pink ?”). Be cautious, this is not
+a random color choice.
+• “Basics” as the navigation tab’s title.
+• A title -so bigger- in white, centered, that contains at least 1 special character.
+• Two images side by side representing online shops.
+• Under each image, a link to the matching website.
+• Under that, a horizontal line that separates the page (no matter the size of the
+window).
+• Finally, under this line, aligned on the right side of the page, in italic and with
+a monospace font, the copyright symbol, your login, and the current year. (“© ol
+2014”).
+-->
+
+<html>
+	<head>
+	<style>
+		body {background-color: pink;}
+		h1 {color: white; text-align: center;}
+		footer {text-align: right; font-style: italic; font-family: monospace;}
+		.row {margin: auto; display: table;}
+		.column {width: 50%; float: left; text-align: center;}
+	</style>
+	<title>Basics</title>
+	</head>
+	<body>
+		<h1>big, white, centered &amp; has 100&percnt; special chars&commat;srahc.com</h1>
+		<div class="row">
+			<div class="column">
+				<img src="https://www.pixelspoke.com/wp-content/uploads/2013/03/zappos-logo2.jpg">
+				<br />
+				<a href="https://www.zappos.com/">Zappos</a>
+			</div>
+			<div class="column">
+				<img src="http://sarahscoop.com/wp-content/uploads/2017/07/Payles.png">
+				<br />
+				<a href="https://www.payless.com/">Payless</a>
+			</div>
+		</div>
+		<hr>
+		<footer>&copy; asarandi 2019</footer>
+	</body>
+</html>

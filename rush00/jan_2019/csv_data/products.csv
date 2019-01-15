@@ -1,0 +1,14 @@
+title,description,photo,price,active
+croissant,"A croissant is a buttery, flaky, viennoiserie pastry of Austrian origin, named for its historical crescent shape.",img/croissant.jpg,119,1
+baguette,"A baguette is a long, thin loaf of French bread, It is distinguishable by its length and crisp crust.",img/baguette.jpg,255,1
+pain de campagne,"Pain de campagne (""country bread"" in French), also called ""French sourdough"", is typically a large round loaf made from either natural leavening or baker's yeast.",img/country.jpg,345,1
+pain au chocolat,"Pain au chocolat is a type of viennoiserie sweet roll consisting of a cuboid-shaped piece of yeast-leavened laminated dough, similar in texture to a puff pastry, with one or two pieces of dark chocolate in the centre.",img/pain_choc.jpg,169,1
+éclair,An éclair is an oblong pastry made with choux dough filled with a cream and topped with chocolate/coffee icing.,img/eclair.jpg,219,1
+macaron,These have a debated origin but the earliest form of modern macaron was likely baked in France in the 1800s. French macarons are made with a mixture of almond flour and confectioners' sugar which is folded into a meringueof stiffly beaten egg whites.,img/macaron.jpg,179,1
+mille-feuilles,"The mille-feuille(""thousand sheets"") is traditionally made up of three layers of puff pastry, alternating with two layers of pastry cream.",img/millefeuille.jpg,279,1
+canelé,"A small pastry with a soft and tender custard center and a dark, thick caramelized crust.",img/canele.jpg,129,1
+kouign-amann,"A Breton cake containing layers of butter and sugar folded in, similar in fashion to puff pastry albeit with fewer layers. The sugar caramelizes during baking.",img/kouignamann.jpg,259,1
+sausage sandwich,A baguette sandwich with dry sausage and pickles,img/saucisson.jpg,695,1
+ham and cheese,"A baguette sandwich with ham, cheese and veggies",img/jambon.jpg,565,1
+lemon meringue pie (6 servings),"Lemon meringue pie is a type of baked pie, usually served for dessert, made with a crust made of shortcrust pastry, lemon custard filling and a fluffy meringue topping. Lemon meringue pie is prepared with a bottom pie crust, with the meringue directly on top of the lemon filling.",img/lemon.jpg,2295,1
+financier,"A financier is a small French almond cake, flavoured with beurre noisette, baked in a small mold. Light and moist with a crisp, eggshell-like exterior. Contains egg whites, flour, and powdered sugar.",img/financier.jpg,275,1

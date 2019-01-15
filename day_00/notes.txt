@@ -1,0 +1,44 @@
+html, css, xml, php, jquery, zend, rails, mysql, apache, html5
+-more and more complex;
+-network aspects; how everything works together;
+basic web browser; we're on one web page and on multiple web pages simultaneously;
+multiple desktops connected into a network; connected to internet;
+how can information travel from your computer to google's servers;
+computers must have an ip address; clusters or subnets;
+router or gateway;
+domain name system to convert 'www.google.com' convert to ip address;
+. ->	.com	->	google.com	-> www.google.com
+. ->	.fr		->	42.fr		-> www.42.fr
+
+
+
+html & css
+html is a basic language that will enable us to describe the structure of a html document;
+text, links and images;
+
+for css, id names start with hashtag #
+for css, class names start with a dot .
+
+
+reference:
+	w3schools.com
+
+
+<HTML>
+	<HEAD>
+		<TITLE>this is the title of my page</TITLE>
+		<STYLE>
+			H1 {color:red;}	
+			#my_id {border:5px solid red;}
+			.my_class {color: green;}
+		</STYLE>
+	</HEAD>
+	<BODY>
+		line one <BR />
+		<H1>line two</H1> <BR />
+		<IMG id="my_id" SRC="logo-42.JPG">
+		<A class="my_class" HREF="http://wwww.google.com">this is a link</A>
+
+	</BODY>
+</HTML>
+
