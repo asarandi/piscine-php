@@ -1,0 +1,445 @@
+===[ DIFF EX11 >>> ]===
+--- user_output_test11	2019-01-16 12:04:07.000000000 -0800$
++++ test11.output	2019-01-16 12:04:07.000000000 -0800$
+@@ -1,3 +1,18 @@$
+ NAME	first_name	price$
++NULL	NULL	60$
++NULL	NULL	238$
++NULL	NULL	500$
++NULL	NULL	238$
++NULL	NULL	500$
++NULL	NULL	238$
++NULL	NULL	500$
++NULL	NULL	238$
++NULL	NULL	60$
++NULL	NULL	500$
++NULL	NULL	500$
++NULL	NULL	60$
++NULL	NULL	238$
++NULL	NULL	60$
++NULL	NULL	238$
+ COULM	marwan	60$
+ HENNEGRAVE	severin	60$
+===[ <<< DIFF EX11 ]===
+===[ DIFF EX14 >>> ]===
+--- user_output_test14	2019-01-16 12:04:07.000000000 -0800$
++++ test14.output	2019-01-16 12:04:07.000000000 -0800$
+@@ -1,18 +1,5 @@$
+ floor	seats$
+-0	300$
+-1	300$
+-1	280$
+-2	225$
+-3	225$
+-2	200$
+-0	135$
+-3	130$
+-1	125$
+-1	125$
+-2	89$
+-0	85$
+-1	85$
+-1	85$
+-1	85$
+-3	38$
+-2	35$
++1	1085$
++2	549$
++0	520$
++3	393$
+===[ <<< DIFF EX14 ]===
+===[ DIFF EX15 >>> ]===
+--- user_output_test15	2019-01-16 12:04:07.000000000 -0800$
++++ test15.output	2019-01-16 12:04:07.000000000 -0800$
+@@ -1,92 +1,19 @@$
+ rebmunenohp$
+ 098905425$
+-834370271$
+-356280561$
+ 748684305$
+ 131438735$
+-808093483$
+-298444461$
+-359072783$
+-449515762$
+-683139431$
+-237410664$
+-628471734$
+-812428122$
+-526320653$
+-991273901$
+-603312173$
+ 573276725$
+-601862844$
+-594373512$
+ 582814535$
+-419781313$
+-399564424$
+-884639342$
+-781868612$
+ 788143875$
+-511227783$
+ 273596455$
+-227788091$
+ 233056115$
+-805931343$
+-443553631$
+-465803711$
+-571257793$
+-575939621$
+-153125901$
+-343766711$
+-768372054$
+ 793543425$
+-114456333$
+-846125552$
+-252817531$
+-097534284$
+-928763241$
+-064888481$
+-806454582$
+-824292872$
+-807912012$
+-911375443$
+-723704984$
+-435204073$
+-617962403$
+-640600831$
+ 787636885$
+ 608074035$
+ 202294885$
+ 974505715$
+-888047741$
+ 704755975$
+-176028834$
+-708320811$
+ 926377685$
+-620332973$
+-811502491$
+-468781893$
+-890470721$
+-134010193$
+-107298241$
+-616909783$
+-761569511$
+-595613101$
+ 516529675$
+-498802684$
+-362231113$
+ 390004325$
+-357320553$
+-802581334$
+-761628433$
+-431225672$
+-282378903$
+-849565214$
+-450193464$
+-597817762$
+-145583411$
+-244309641$
+-557470844$
+-575641534$
+-449342931$
+-154445982$
+ 409094735$
+-002572264$
+-789220493$
+===[ <<< DIFF EX15 ]===
+===[ DIFF EX17 >>> ]===
+--- user_output_test17	2019-01-16 12:04:07.000000000 -0800$
++++ test17.output	2019-01-16 12:04:07.000000000 -0800$
+@@ -1,2 +1,2 @@$
+ nb_susc	av_susc	ft$
+-5	170	66$
++5	170	24$
+===[ <<< DIFF EX17 ]===
+===[ DIFF EX18 >>> ]===
+--- user_output_test18	2019-01-16 12:04:07.000000000 -0800$
++++ test18.output	2019-01-16 12:04:07.000000000 -0800$
+@@ -1,6 +1,6 @@$
+ name$
+-showbox media group$
+ united pictures international uk$
+ paramount pictures uk$
+ buena vista international uk$
+ universal international pictures$
++punk distribution$
+===[ <<< DIFF EX18 ]===
+===[ DIFF EX20 >>> ]===
+--- user_output_test20	2019-01-16 12:04:07.000000000 -0800$
++++ test20.output	2019-01-16 12:04:07.000000000 -0800$
+@@ -1,138 +1,138 @@$
+-id_genre	name_genre	id_distrib	distrib_name	title$
+-4	documentary		gimages	Roger and Me$
+-4	documentary		gimages	Microcosmos$
+-4	documentary		gimages	East Side Story$
+-4	documentary		gimages	The Mysteries of Egypt$
+-4	documentary		gimages	Into the Deep$
+-5	animation		gimages	The Witches$
+-5	animation		gimages	Akira$
+-5	animation		gimages	FernGully: The Last Rainforest$
+-5	animation		gimages	The Nightmare Before Christmas$
+-5	animation		gimages	Aladdin$
+-5	animation		gimages	Ghost in the Shell$
+-5	animation		gimages	The Swan Princess$
+-5	animation		gimages	Babe$
+-5	animation		gimages	Toy Story$
+-5	animation		gimages	James and the Giant Peach$
+-5	animation		gimages	A Goofy Movie$
+-5	animation		gimages	Hercule$
+-5	animation		gimages	Anastasia$
+-5	animation		gimages	Star Kid$
+-5	animation		gimages	The Little Mermaid$
+-5	animation		gimages	Barney's Great Adventure$
+-5	animation		gimages	Quest for Camelot$
+-5	animation		gimages	Antz$
+-5	animation		gimages	The Prince of Egypt$
+-5	animation		gimages	A Bug's Life$
+-6	comedy		gimages	Pretty Woman$
+-6	comedy		gimages	The Jetsons$
+-6	comedy		gimages	Asterix and the Big Fight$
+-6	comedy		gimages	Home Alone$
+-6	comedy		gimages	Curly Sue$
+-6	comedy		gimages	Hear my song$
+-6	comedy		gimages	Strictly Ballroom$
+-6	comedy		gimages	Delicatessen$
+-6	comedy		gimages	Home Alone 2$
+-6	comedy		gimages	Much Ado about Nothing$
+-6	comedy		gimages	The Muppet Christmas Carol$
+-6	comedy		gimages	Four Weddings and a Funeral$
+-6	comedy		gimages	The Flintstones$
+-6	comedy		gimages	Lovers Will Walk Off with the Bride$
+-6	comedy		gimages	The Little Rascals$
+-6	comedy		gimages	Clerks$
+-6	comedy		gimages	Casper$
+-6	comedy		gimages	Clueless$
+-6	comedy		gimages	Contempt$
+-6	comedy		gimages	Kingpin$
+-6	comedy		gimages	The Nutty Professor$
+-6	comedy		gimages	101 Dalmatians$
+-6	comedy		gimages	Space Jam$
+-6	comedy		gimages	Liar Liar$
+-6	comedy		gimages	Bean$
+-6	comedy		gimages	My Best Friend's Wedding$
+-6	comedy		gimages	Shooting fish$
+-6	comedy		gimages	A Life Less Ordinary$
+-6	comedy		gimages	Excess Baggage$
+-6	comedy		gimages	Home Alone 3$
+-6	comedy		gimages	Spice World the Movie$
+-6	comedy		gimages	Picture Perfect$
+-6	comedy		gimages	Bring Me the Head of Mavis Davis$
+-6	comedy		gimages	In &amp; Out$
+-6	comedy		gimages	Good Burger$
+-6	comedy		gimages	Wag the Dog$
+-6	comedy		gimages	Mouse Hunt$
+-6	comedy		gimages	Deconstructing Harry$
+-6	comedy		gimages	The Big Lebowski$
+-6	comedy		gimages	Sliding Doors$
+-6	comedy		gimages	The Man Who Knew too Little$
+-6	comedy		gimages	Blues Brothers 2000$
+-6	comedy		gimages	Mr. Magoo$
+-6	comedy		gimages	The James Gang$
+-6	comedy		gimages	Wedding Singer$
+-6	comedy		gimages	Stiff Upper Lips$
+-6	comedy		gimages	Girl's night$
+-6	comedy		gimages	Six Days Seven Nights$
+-6	comedy		gimages	The Castle$
+-6	comedy		gimages	Doctor Dolittle$
+-6	comedy		gimages	Mr. Nice Guy$
+-6	comedy		gimages	Way Out West$
++id_genre	name_genre	id_distrib	name_distrib	title_film$
++4	documentary	NULL	NULL	Roger and Me$
++4	documentary	NULL	NULL	Microcosmos$
++4	documentary	NULL	NULL	East Side Story$
++4	documentary	NULL	NULL	The Mysteries of Egypt$
++4	documentary	NULL	NULL	Into the Deep$
++5	animation	NULL	NULL	The Witches$
++5	animation	NULL	NULL	Akira$
++5	animation	NULL	NULL	FernGully: The Last Rainforest$
++5	animation	NULL	NULL	The Nightmare Before Christmas$
++5	animation	NULL	NULL	Aladdin$
++5	animation	NULL	NULL	Ghost in the Shell$
++5	animation	NULL	NULL	The Swan Princess$
++5	animation	NULL	NULL	Babe$
++5	animation	NULL	NULL	Toy Story$
++5	animation	NULL	NULL	James and the Giant Peach$
++5	animation	NULL	NULL	A Goofy Movie$
++5	animation	NULL	NULL	Hercule$
++5	animation	NULL	NULL	Anastasia$
++5	animation	NULL	NULL	Star Kid$
++5	animation	NULL	NULL	The Little Mermaid$
++5	animation	NULL	NULL	Barney's Great Adventure$
++5	animation	NULL	NULL	Quest for Camelot$
++5	animation	NULL	NULL	Antz$
++5	animation	NULL	NULL	The Prince of Egypt$
++5	animation	NULL	NULL	A Bug's Life$
++6	comedy	NULL	NULL	Pretty Woman$
++6	comedy	NULL	NULL	The Jetsons$
++6	comedy	NULL	NULL	Asterix and the Big Fight$
++6	comedy	NULL	NULL	Home Alone$
++6	comedy	NULL	NULL	Curly Sue$
++6	comedy	NULL	NULL	Hear my song$
++6	comedy	NULL	NULL	Strictly Ballroom$
++6	comedy	NULL	NULL	Delicatessen$
++6	comedy	NULL	NULL	Home Alone 2$
++6	comedy	NULL	NULL	Much Ado about Nothing$
++6	comedy	NULL	NULL	The Muppet Christmas Carol$
++6	comedy	NULL	NULL	Four Weddings and a Funeral$
++6	comedy	NULL	NULL	The Flintstones$
++6	comedy	NULL	NULL	Lovers Will Walk Off with the Bride$
++6	comedy	NULL	NULL	The Little Rascals$
++6	comedy	NULL	NULL	Clerks$
++6	comedy	NULL	NULL	Casper$
++6	comedy	NULL	NULL	Clueless$
++6	comedy	NULL	NULL	Contempt$
++6	comedy	NULL	NULL	Kingpin$
++6	comedy	NULL	NULL	The Nutty Professor$
++6	comedy	NULL	NULL	101 Dalmatians$
++6	comedy	NULL	NULL	Space Jam$
++6	comedy	NULL	NULL	Liar Liar$
++6	comedy	NULL	NULL	Bean$
++6	comedy	NULL	NULL	My Best Friend's Wedding$
++6	comedy	NULL	NULL	Shooting fish$
++6	comedy	NULL	NULL	A Life Less Ordinary$
++6	comedy	NULL	NULL	Excess Baggage$
++6	comedy	NULL	NULL	Home Alone 3$
++6	comedy	NULL	NULL	Spice World the Movie$
++6	comedy	NULL	NULL	Picture Perfect$
++6	comedy	NULL	NULL	Bring Me the Head of Mavis Davis$
++6	comedy	NULL	NULL	In &amp; Out$
++6	comedy	NULL	NULL	Good Burger$
++6	comedy	NULL	NULL	Wag the Dog$
++6	comedy	NULL	NULL	Mouse Hunt$
++6	comedy	NULL	NULL	Deconstructing Harry$
++6	comedy	NULL	NULL	The Big Lebowski$
++6	comedy	NULL	NULL	Sliding Doors$
++6	comedy	NULL	NULL	The Man Who Knew too Little$
++6	comedy	NULL	NULL	Blues Brothers 2000$
++6	comedy	NULL	NULL	Mr. Magoo$
++6	comedy	NULL	NULL	The James Gang$
++6	comedy	NULL	NULL	Wedding Singer$
++6	comedy	NULL	NULL	Stiff Upper Lips$
++6	comedy	NULL	NULL	Girl's night$
++6	comedy	NULL	NULL	Six Days Seven Nights$
++6	comedy	NULL	NULL	The Castle$
++6	comedy	NULL	NULL	Doctor Dolittle$
++6	comedy	NULL	NULL	Mr. Nice Guy$
++6	comedy	NULL	NULL	Way Out West$
+ 6	comedy	1	les films du losange	There's Something about Mary$
+-6	comedy		gimages	The Last days of disco$
+-6	comedy		gimages	Divorcing Jack$
+-6	comedy		gimages	Air Bud$
+-6	comedy		gimages	Neil Simon's The Odd Couple II$
+-6	comedy		gimages	Slums of Beverly Hills$
+-6	comedy		gimages	The Philadelphia Story$
+-6	comedy		gimages	The Man With Rain in his Shoes$
+-6	comedy		gimages	Babe - Pig in the City$
+-6	comedy		gimages	The Parent Trap$
+-6	comedy		gimages	Madeline$
+-6	comedy		gimages	My Giant$
+-6	comedy		gimages	Don't go breaking my heart$
+-6	comedy		gimages	Holy Man$
+-6	comedy		gimages	You've Got Mail$
+-6	comedy		gimages	A Night at the Roxbury$
+-7	fantasy		gimages	Gremlins 2, the New Batch$
+-7	fantasy		gimages	Ghost$
+-7	fantasy		gimages	Stalker$
+-7	fantasy		gimages	Star Trek VI: The Undiscovered Country$
+-7	fantasy		gimages	Bram Stoker's Dracula$
+-7	fantasy		gimages	The Crow$
+-7	fantasy		gimages	Batman Forever$
+-7	fantasy		gimages	Species$
+-7	fantasy		gimages	From Dusk till Dawn$
++6	comedy	NULL	NULL	The Last days of disco$
++6	comedy	NULL	NULL	Divorcing Jack$
++6	comedy	NULL	NULL	Air Bud$
++6	comedy	NULL	NULL	Neil Simon's The Odd Couple II$
++6	comedy	NULL	NULL	Slums of Beverly Hills$
++6	comedy	NULL	NULL	The Philadelphia Story$
++6	comedy	NULL	NULL	The Man With Rain in his Shoes$
++6	comedy	NULL	NULL	Babe - Pig in the City$
++6	comedy	NULL	NULL	The Parent Trap$
++6	comedy	NULL	NULL	Madeline$
++6	comedy	NULL	NULL	My Giant$
++6	comedy	NULL	NULL	Don't go breaking my heart$
++6	comedy	NULL	NULL	Holy Man$
++6	comedy	NULL	NULL	You've Got Mail$
++6	comedy	NULL	NULL	A Night at the Roxbury$
++7	fantasy	NULL	NULL	Gremlins 2, the New Batch$
++7	fantasy	NULL	NULL	Ghost$
++7	fantasy	NULL	NULL	Stalker$
++7	fantasy	NULL	NULL	Star Trek VI: The Undiscovered Country$
++7	fantasy	NULL	NULL	Bram Stoker's Dracula$
++7	fantasy	NULL	NULL	The Crow$
++7	fantasy	NULL	NULL	Batman Forever$
++7	fantasy	NULL	NULL	Species$
++7	fantasy	NULL	NULL	From Dusk till Dawn$
+ 7	fantasy	1	les films du losange	Independence Day$
+-7	fantasy		gimages	The Crow: City of Angels$
+-7	fantasy		gimages	The Adventures of Pinocchio$
+-7	fantasy		gimages	Frighteners$
+-7	fantasy		gimages	Lost Highway$
+-7	fantasy		gimages	Event Horizon$
++7	fantasy	NULL	NULL	The Crow: City of Angels$
++7	fantasy	NULL	NULL	The Adventures of Pinocchio$
++7	fantasy	NULL	NULL	Frighteners$
++7	fantasy	NULL	NULL	Lost Highway$
++7	fantasy	NULL	NULL	Event Horizon$
+ 7	fantasy	1	les films du losange	Alien : Resurrection$
+-7	fantasy		gimages	The Borrowers$
+-7	fantasy		gimages	Starship Troopers$
+-7	fantasy		gimages	The Devil's Advocate$
+-7	fantasy		gimages	FairyTale: A True Story$
+-7	fantasy		gimages	Sphere$
+-7	fantasy		gimages	Dark City$
+-7	fantasy		gimages	Wishmaster$
+-7	fantasy		gimages	City of Angels$
+-7	fantasy		gimages	Mimic$
+-7	fantasy		gimages	Godzilla$
+-7	fantasy		gimages	Lost in Space$
+-7	fantasy		gimages	The X Files$
+-7	fantasy		gimages	Species II$
+-7	fantasy		gimages	Cube$
+-7	fantasy		gimages	Small Soldiers$
+-7	fantasy		gimages	Blade$
+-7	fantasy		gimages	The Wisdom of Crocodiles$
+-7	fantasy		gimages	What Dreams May Come$
+-7	fantasy		gimages	Meet Joe Black$
+-7	fantasy		gimages	Practical Magic$
+-7	fantasy		gimages	Jack Frost$
+-7	fantasy		gimages	Pleasantville$
+-8	action		gimages	Romper Stomper$
+-8	action		gimages	Money Talks$
+-8	action		gimages	The Replacement Killers$
+-8	action		gimages	Point Blank$
+-8	action		gimages	Lethal weapon 4$
+-8	action		gimages	Out of Sight$
++7	fantasy	NULL	NULL	The Borrowers$
++7	fantasy	NULL	NULL	Starship Troopers$
++7	fantasy	NULL	NULL	The Devil's Advocate$
++7	fantasy	NULL	NULL	FairyTale: A True Story$
++7	fantasy	NULL	NULL	Sphere$
++7	fantasy	NULL	NULL	Dark City$
++7	fantasy	NULL	NULL	Wishmaster$
++7	fantasy	NULL	NULL	City of Angels$
++7	fantasy	NULL	NULL	Mimic$
++7	fantasy	NULL	NULL	Godzilla$
++7	fantasy	NULL	NULL	Lost in Space$
++7	fantasy	NULL	NULL	The X Files$
++7	fantasy	NULL	NULL	Species II$
++7	fantasy	NULL	NULL	Cube$
++7	fantasy	NULL	NULL	Small Soldiers$
++7	fantasy	NULL	NULL	Blade$
++7	fantasy	NULL	NULL	The Wisdom of Crocodiles$
++7	fantasy	NULL	NULL	What Dreams May Come$
++7	fantasy	NULL	NULL	Meet Joe Black$
++7	fantasy	NULL	NULL	Practical Magic$
++7	fantasy	NULL	NULL	Jack Frost$
++7	fantasy	NULL	NULL	Pleasantville$
++8	action	NULL	NULL	Romper Stomper$
++8	action	NULL	NULL	Money Talks$
++8	action	NULL	NULL	The Replacement Killers$
++8	action	NULL	NULL	Point Blank$
++8	action	NULL	NULL	Lethal weapon 4$
++8	action	NULL	NULL	Out of Sight$
+===[ <<< DIFF EX20 ]===
