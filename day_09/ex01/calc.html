@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+    <script>
+        var t = setInterval("alert('Please, use me...');", 30000);
+    </script>
+    </head>
+    <body>
+        <input type="text" id="left">
+        <select id="op">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <input type="text" id="right">
+        <input type="submit" onclick="calc()" value="Try me!">
+        <script>
+            function result(value) {
+                console.log(value);
+                alert(value);
+            }
+            function calc() {
+                var left = document.getElementById('left').value;
+                var right = document.getElementById('right').value;
+                left = parseInt(left, 10);
+                right = parseInt(right, 10);
+                if ((left >= 0) && (right >= 0)) {
+                    var op = document.getElementById('op').value;
+                    if (op == '+') {
+                        return result(left + right);
+                    } else if (op == '-') {
+                        return result(left - right);
+                    } else if (op == '*') {
+                        return result(left * right);
+                    } else if ((op == '/') || (op == '%')) {
+                        if (right == 0) {
+                            return result("It's over 9000!");
+                        } else {
+                            if (op == '/') {
+                                return result(left / right);
+                            } else if (op == '%') {
+                                return result(left % right);
+                            }
+                        }
+                    }
+                } else {
+                    return alert('Error :(');
+                }
+            }
+        </script>
+    </body>
+</html>

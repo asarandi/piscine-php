@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            #balloon_wtf {
+                background-color: red;
+                width: 200px;
+                height: 200px;
+                border-radius: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="balloon" onmouseleave="leave()" onclick="clicked()" style="background-color:red; width:200px; height:200px; border-radius:100px;"></div>
+        <script>
+            function leave() {
+                var ssize = document.getElementById('balloon').style['height'].slice(0,-2); //remove "px" suffix
+                var isize = parseInt(ssize, 10);
+                if (isize >= 205) {
+                    isize = isize - 5;
+                }
+                ssize = isize.toString() + 'px';
+                document.getElementById('balloon').style['height'] = ssize;
+                document.getElementById('balloon').style['width'] = ssize;
+                isize = isize / 2;
+                ssize = isize.toString() + 'px';
+                document.getElementById('balloon').style['border-radius'] = ssize;
+                var scolor = document.getElementById('balloon').style['background-color'];
+                if (scolor == 'red') {
+                    document.getElementById('balloon').style['background-color'] = 'blue';
+                } else if (scolor == 'green') {
+                    document.getElementById('balloon').style['background-color'] = 'red';
+                } else if (scolor == 'blue') {
+                    document.getElementById('balloon').style['background-color'] = 'green';
+                }
+            }
+            function clicked() {
+                var ssize = document.getElementById('balloon').style['height'].slice(0,-2); //remove "px" suffix
+                var isize = parseInt(ssize, 10);
+                isize = isize + 10;
+                if (isize > 420) {
+                    isize = 200;
+                }
+                ssize = isize.toString() + 'px';
+                document.getElementById('balloon').style['height'] = ssize;
+                document.getElementById('balloon').style['width'] = ssize;
+                isize = isize / 2;
+                ssize = isize.toString() + 'px';
+                document.getElementById('balloon').style['border-radius'] = ssize;
+                var scolor = document.getElementById('balloon').style['background-color'];
+                if (scolor == 'red') {
+                    document.getElementById('balloon').style['background-color'] = 'green';
+                } else if (scolor == 'green') {
+                    document.getElementById('balloon').style['background-color'] = 'blue';
+                } else if (scolor == 'blue') {
+                    document.getElementById('balloon').style['background-color'] = 'red';
+                }
+            }
+        </script>
+    </body>
+</html>
