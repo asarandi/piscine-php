@@ -48,7 +48,10 @@ function add() {
 }
 
 function remove(id) {
-    var todo = document.getElementById(id);
-    todo.parentNode.removeChild(todo);
-    save_cookie();
+    var r = confirm('Delete item from list?');
+    if (r == true) {
+        var todo = document.getElementById(id);
+        todo.parentNode.removeChild(todo);
+        save_cookie();
+    }
 }
