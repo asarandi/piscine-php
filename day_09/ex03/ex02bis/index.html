@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+        <!--
+            i thought jquery cookie would be acceptable to use
+            because i think the purpose of this exercise is to have the student
+            see and understand that plain javascript can require numreous function calls
+            vs jQuery library where you can get the same result in only a few lines of code ..
+        -->
     </head>
     <body>
         <div id="ft_list"></div>
-        <input type="button" value="New" onclick="add()">
+        <input type="button" id="add" value="New">
         <script src="todo.js"></script>
     </body>
 </html>

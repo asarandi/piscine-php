@@ -1,57 +1,35 @@
-var id = 0;
-var cookie = document.cookie;
-
-if (cookie.length > 8) {
-    cookie = cookie.substring(8);
+var cookie = decodeURI($.cookie('ft_list'));
+if (cookie !== 'undefined') {
     var arr = JSON.parse(cookie);
-    for (var ks in arr) {
-        var ki = parseInt(ks);
-        if (ki >= id) {
-            id = ki + 1;
-        }
-        insert_todo(ki, arr[ks]);
+    for (i in arr) {
+        insert_todo(arr[i]);
     }
 }
 
-function insert_todo(id, msg) {
-    var div = document.createElement('div');
-    div.setAttribute('id', id.toString());
-    div.setAttribute('onclick', 'remove(' + id.toString() + ')');
-    var content = document.createTextNode(msg);
-    div.appendChild(content);
-    var todolist = document.getElementById('ft_list');
-    todolist.insertBefore(div, todolist.childNodes[0]);
+function insert_todo(msg) {
+    $('#ft_list').prepend('<div class="todo">' + msg + '</div>');
 }
 
 function save_cookie() {
-    var arr = {};
-    p = document.getElementById('ft_list');
-    for (c in p.children) {
-        cdiv = p.children[c];
-        var id = parseInt(cdiv.id);
-        var val = cdiv.innerText;
-        arr[id] = val;
-    }
-    json = JSON.stringify(arr);
-    var d = new Date();
-    d.setTime(d.getTime() + (7*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = 'ft_list=' + json + ';' + expires + ';path=/;';
+    var arr = [];
+    $('#ft_list').children().each(function() {
+        arr.unshift(this.innerText);
+    });
+    $.cookie('ft_list', JSON.stringify(arr), {expires: 7});
 }
 
-function add() {
+$('#add').click(function() {
     var todo = prompt("new todo", "");
     if ((todo != null) && (todo.length > 0)) {
-        insert_todo(id++, todo);
+        insert_todo(todo);
         save_cookie();
     }               
-}
+});
 
-function remove(id) {
+$(document).on('click', '.todo', function() {
     var r = confirm('Delete item from list?');
     if (r == true) {
-        var todo = document.getElementById(id);
-        todo.parentNode.removeChild(todo);
+        this.remove();
         save_cookie();
     }
-}
+});
