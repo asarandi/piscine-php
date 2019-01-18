@@ -1,6 +1,6 @@
-var cookie = decodeURI($.cookie('ft_list'));
-if (cookie !== 'undefined') {
-    var arr = JSON.parse(cookie);
+var cookie = decodeURIComponent(document.cookie);
+if (cookie.substring(0,8) === 'ft_list=') {
+    var arr = JSON.parse(cookie.substring(8));
     for (i in arr) {
         insert_todo(arr[i]);
     }
@@ -15,7 +15,10 @@ function save_cookie() {
     $('#ft_list').children().each(function() {
         arr.unshift(this.innerText);
     });
-    $.cookie('ft_list', JSON.stringify(arr), {expires: 7});
+    var d = new Date();
+    d.setTime(d.getTime() + (7*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();    
+    document.cookie = 'ft_list=' + encodeURIComponent(JSON.stringify(arr)) + ';' + expires + 'path=/;';
 }
 
 $('#add').click(function() {
