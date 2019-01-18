@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+          <script
+              src="https://code.jquery.com/jquery-3.3.1.js"
+              integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+              crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <input type="text" id="left">
+        <select id="op">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <input type="text" id="right">
+        <input type="submit" id="calc" value="Try me!">
+        <script>
+            $(document).ready(function(){
+                setInterval('alert("Please, use me...")', 30000);
+            });
+            function result(value) {
+                console.log(value);
+                alert(value);
+            }
+            $('#calc').click(function() {
+                var left = parseInt($('#left').val());
+                var right = parseInt($('#right').val());
+                if ((left >= 0) && (right >= 0)) {
+                    var op = $('#op').val();
+                    if (op == '+') {
+                        return result(left + right);
+                    } else if (op == '-') {
+                        return result(left - right);
+                    } else if (op == '*') {
+                        return result(left * right);
+                    } else if ((op == '/') || (op == '%')) {
+                        if (right == 0) {
+                            return result("It's over 9000!");
+                        } else {
+                            if (op == '/') {
+                                return result(left / right);
+                            } else if (op == '%') {
+                                return result(left % right);
+                            }
+                        }
+                    }
+                } else {
+                    return alert('Error :(');
+                }
+            });
+        </script>
+    </body>
+</html>
